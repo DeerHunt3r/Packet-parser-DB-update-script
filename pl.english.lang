@@ -1,0 +1,314 @@
+/*******************************************************\
++							+
++		      English.lang			+
++							+
+|*******************************************************|
+|                    					|
+|     Data are stored with the syntax : [key]=value	|
+|                    					|
+| If you want to make a new language file just replace	|
+| all the values of this file with the one you want to  |
+|   	  use instead in the language you want.		|
+|                    					|
+|  Take care, all values case sensitive. So don't add	|
+|        any space or tab at the end of line.		|
+|                    					|
+|           And the most important thing:		|
+|              never change any key !!!!		|
+|                    					|
+\-------------------------------------------------------/
+	
+	/* World object research strings */
+
+
+[grave_string]=Grave
+[bag_of_coins_string]=bag of coins
+
+--------------------------------------------------------
+
+--------------------------------------------------------
+	
+	/* npc guild name research strings */
+
+[merchant_string]=Merchant
+[stable_master_string]=Stable Master
+[vault_keeper_string]=Vault Keeper
+[healer_string]=Healer
+[smith_string]=Smith
+[enchanter_string]=Enchanter
+
+--------------------------------------------------------
+
+--------------------------------------------------------
+	
+	/* horse route research strings */
+
+
+[ticket_string]=ticket to
+[horse_string]=horse
+[dragon_fly_string]=Dragon Fly
+[ampheretere_string]=Ampheretere
+[gryphon_string]=Gryphon
+[pet_string]=pet
+
+--------------------------------------------------------
+
+--------------------------------------------------------
+	
+	/* general delve info strings */
+
+[usable_by_string]=Usable By:
+[level_requirement_string]=Level Requirement
+[shield_delve_string]=Damage Modifiers (when used with shield styles):
+[shield_dps_string]=Base DPS
+[shield_spd_string]=Shield Speed
+[focus_bonuses_string]=Focus Bonuses:
+[lvls_string]=lvls
+[magical_bonuses_string]=Magical Bonuses:
+[quality_string]=Quality
+[weapon_speed_string]=Weapon Speed
+[poison_string]=Poison:
+[magical_ability_string]=Magical Ability:
+[charged_magic_string]=Charged Magic Ability:
+[poison_magic_string]=Offensive Proc Ability:
+[charge_string]=Charges
+[max_charge_string]=Max
+[function_string]=Function:
+[sold_string]=Cannot be sold to merchants.
+[trade_string]=Cannot be traded to other players.
+[siege_ammunition_string]=This item is ammunition for use in a siege weapon.
+
+--------------------------------------------------------
+
+--------------------------------------------------------
+
+	/* proc/change delve info strings */
+
+
+		// type
+
+[damage_over_time_string]=dmg-over-time
+[disease_string]=disease
+[speed_decrease_string]=speed decrease
+[stat_decrease_string]=stat decrease
+[str_con_decrease_string]=improved stat decrease
+[direct_damage_string]=direct damage
+
+
+		// carac
+
+[damage_per_tick_string]=Damage per tick:
+[duration_string]=Duration:
+[damage_type_string]=Damage:
+[value_string]=Value:
+[strength_penalty_string]=Strength penalty:
+[str_con_penalty_string]=Str/Con decrease:
+[radius_string]=Radius:
+
+
+--------------------------------------------------------
+
+--------------------------------------------------------
+
+	/* Dol spell type */
+
+[DamageOverTime]=DamageOverTime
+[Disease]=Disease
+[SpeedDecrease]=SpeedDecrease
+[UnbreakableSpeedDecrease]=UnbreakableSpeedDecrease
+[StrengthDebuff]=StrengthDebuff
+[StrengthConstitutionDebuff]=StrengthConstitutionDebuff
+[DirectDamage]=DirectDamage
+
+--------------------------------------------------------
+
+--------------------------------------------------------
+
+	/* magical bonus delve info strings */
+
+
+		// character stat bonus
+
+[strength_string]=Strength
+[dexterity_string]=Dexterity
+[constitution_string]=Constitution
+[quickness_string]=Quickness
+[intelligence_string]=Intelligence
+[piety_string]=Piety
+[empathy_string]=Empathy
+[charisma_string]=Charisma
+
+[power_string]=Power
+[hits_string]=Hits
+
+
+		// skill bonus
+
+[two_handed_string]=Two Handed
+[body_magic_string]=Body Magic
+[chants_string]=Chants
+[critical_strike_string]=Critical Strike
+[crossbow_string]=Crossbow
+[crush_string]=Crush
+[death_servant_string]=Death Servant
+[deathsight_string]=Deathsight
+[dual_wield_string]=Dual Wield
+[earth_magic_string]=Earth Magic
+[enhancements_string]=Enhancements
+[envenom_string]=Envenom
+[fire_magic_string]=Fire Magic
+[flexible_string]=Flexible
+[cold_magic_string]=Cold Magic
+[instruments_string]=Instruments
+[longbow_string]=Longbow
+[matter_magic_string]=Matter Magic
+[mind_string]=Mind Magic
+[parry_string]=Parry
+[polearm_string]=Polearm
+[rejuvenation_string]=Rejuvenation
+[shield_string]=Shield
+[slash_string]=Slash
+[smiting_string]=Smiting
+[soulrending_string]=Soulrending
+[spirit_magic_string]=Spirit Magic
+[staff_string]=Staff
+[stealth_string]=Stealth
+[thrust_string]=Thrust
+[wind_magic_string]=Wind Magic
+[sword_string]=Sword
+[hammer_string]=Hammer
+[axe_string]=Axe
+[left_axe_string]=Left Axe
+[spear_string]=Spear
+[mending_string]=Mending
+[augmentation_string]=Augmentation
+[darkness_string]=Darkness
+[suppression_string]=Suppression
+[runecarving_string]=Runecarving
+[stormcalling_string]=Stormcalling
+[light_magic_string]=Light Magic
+[void_magic_string]=Void Magic
+[mana_magic_string]=Mana Magic
+[composite_bow_string]=Composite Bow
+[battlesongs_string]=Battlesongs
+[enchantments_string]=Enchantments
+[blades_string]=Blades
+[blunt_string]=Blunt
+[piercing_string]=Piercing
+[large_weaponry_string]=Large Weaponry
+[mentalism_string]=Mentalism
+[regrowth_string]=Regrowth
+[nurture_string]=Nurture
+[nature_affinity_string]=Nature Affinity
+[music_string]=Music
+[celtic_dual_string]=Celtic Dual
+[celtic_spear_string]=Celtic Spear
+[recurve_bow_string]=Recurve Bow
+[valor_string]=Valor
+[cave_magic_string]=Cave Magic
+[bone_army_string]=Bone Army
+[verdant_path_string]=Verdant Path
+[creeping_path_string]=Creeping Path
+[arboreal_path_string]=Arboreal Path
+[scythe_string]=Scythe
+[thrown_string]=Thrown
+[hand_to_hand_string]=Hand to Hand
+[bow_string]=Bow
+[pacification_string]=Pacification
+[summoning_string]=Summoning
+
+
+		// focus bonus
+
+[darkness_focus_string]=Darkness
+[suppression_focus_string]=Suppression
+[runecarving_focus_string]=Runecarving
+[spirit_magic_focus_string]=Spirit Magic
+[fire_magic_focus_string]=Fire Magic
+[wind_magic_focus_string]=Wind Magic
+[cold_magic_focus_string]=Cold Magic
+[earth_magic_focus_string]=Earth Magic
+[light_magic_focus_string]=Light Magic
+[body_magic_focus_string]=Body Magic
+[matter_magic_focus_string]=Matter Magic
+[mind_magic_focus_string]=Mind Magic
+[void_magic_focus_string]=Void Magic
+[mana_magic_focus_string]=Mana Magic
+[enchantments_focus_string]=Enchantments
+[mentalism_focus_string]=Mentalism
+[summoning_focus_string]=Summoning
+[bone_army_focus_string]=Bone Army
+[painworking_focus_string]=Painworking
+[deathsight_focus_string]=Deathsight
+[death_servant_focus_string]=Death Servant
+[verdant_path_focus_string]=Verdant Path
+[creeping_path_focus_string]=Creeping Path
+[arboreal_path_focus_string]=Arboreal Path
+
+	
+		// resist bonus
+
+[body_resist_string]=Body
+[cold_resist_string]=Cold
+[crush_resist_string]=Crush
+[energy_resist_string]=Energy
+[heat_resist_string]=Heat
+[matter_resist_string]=Matter
+[slash_resist_string]=Slash
+[spirit_resist_string]=Spirit
+[thrust_resist_string]=Thrust
+
+--------------------------------------------------------
+
+--------------------------------------------------------
+
+	/* dye name strings */
+
+		//remover
+
+[mild_acid_emanel_remover_string]=mild acid emanel remover
+[cloth_bleach_string]=cloth bleach
+[mild_acid_wash_string]=mild acid wash
+
+		// color
+
+[rust_string]=rust
+[black_string]=black
+[light_blue_string]=light blue
+[dark_blue_string]=dark blue
+[royal_blue_string]=royal blue
+[blue_string]=blue
+[light_turquoise_string]=light turquoise
+[royal_turquoise_string]=royal turquoise
+[turquoise_string]=turquoise
+[light_teal_string]=light teal
+[dark_teal_string]=dark teal
+[royal_teal_string]=royal teal
+[teal_string]=teal
+[light_brown_string]=light brown
+[dark_brown_string]=dark brown
+[brown_string]=brown
+[light_red_string]=light red
+[royal_red_string]=royal red
+[red_string]=red
+[crimson_string]=crimson
+[light_green_string]=light green
+[royal_green_string]=royal green
+[forest_green_string]=forest green
+[green_string]=green
+[dark_gray_string]=dark gray
+[charcoal_string]=charcoal
+[light_orange_string]=light orange
+[royal_orange_string]=royal orange
+[orange_string]=orange
+[light_purple_string]=light purple
+[dark_purple_string]=dark purple
+[royal_purple_string]=royal purple
+[purple_string]=purple
+[light_yellow_string]=light yellow
+[royal_yellow_string]=royal yellow
+[yellow_string]=yellow
+[violet_string]=violet
+[mauve_string]=mauve
+
+--------------------------------------------------------

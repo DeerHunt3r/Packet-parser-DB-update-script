@@ -1,0 +1,16 @@
+DOL Packet Parser
+Written by: SmallHorse
+
+This decodes the packets from the Logger and parses out Mob, Mob equips, world objects, merchants and merchant items.
+
+this is a script, no compiling needed.
+1. drop the files into the scripts folder in your dol server project
+2. drop your data file logged from live into the same folder
+3. from the server command window type parselog <filename>
+4. wait for the parser to finish.
+
+
+on a new clean DB, you should find the zone you logged is populated.  if you opened all the merchant windows, all merchant items should be listed.
+also world objects, mobs and any equips mob are wearing should be in the db.
+
+
